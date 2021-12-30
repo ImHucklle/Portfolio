@@ -33,7 +33,7 @@ nav ul li {
   height: 6rem !important;
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
   border-bottom: 3px solid var(--primary-blue);
 
 }

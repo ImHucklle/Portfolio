@@ -48,7 +48,6 @@ const Timeline = () => {
       <SectionText>
          I'm a graduate from 12-week full stack developer course at devCodeCamp. 
          Students are taught how to think like software engineers, working on real-world projects in a collaborative environment.
-         Putting in over 480 + hours, working from project to project in varieties of languages and practices.
       </SectionText>
       <Button onClick={() => window.location = 'https://devcodecamp.com/software-development-bootcamp/'}>Learn More</Button>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

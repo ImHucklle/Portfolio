@@ -12,9 +12,9 @@ const Hero = () => (
         My Name is Myles
       </SectionTitle>
       <SectionText>
-        Marine Corps Veteran.....
+        I'm a full-stack developer, with a broad experience in technologies and languages. I'm passionate about software development because I love to solve complex problems that offer solutions to a greater cause. 
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      <Button onClick={() => window.location = 'https://www.linkedin.com/in/listerm6/'}>Find Out More </Button>
     </LeftSection>
   </Section>
 

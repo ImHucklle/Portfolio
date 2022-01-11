@@ -13,6 +13,7 @@ export const projects = [
 export const TimeLineData = [
   { year: 'March 2016', text: 'Separated from active duty in the Marine Corps', },
   { year: 'September 2021', text: 'Started my journey to become a developer', },
-  { year: 'December 2021', text: 'Finished my Capstone project, and graduated from devCodeCamp', },
-  { year: 2022, text: 'Hello World...', },
+  { year: 'December 2021', text: 'Finished my Capstone project and graduated from devCodeCamp', },
+  { year: 'January 2022', text: 'Continuing to build my skill set and collaborating with other developers', },
+  // { year: 'Beyond', text: 'On a quest to be apart of a team', },
 ];

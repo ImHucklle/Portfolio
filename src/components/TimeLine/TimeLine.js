@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-
+import Button from '../../styles/GlobalComponents/Button';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
@@ -46,8 +46,11 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>Timeline</SectionTitle>
       <SectionText>
-         I recently graduated from devCodeCamp's 12-week full stack developer course.
+         I'm a graduate from 12-week full stack developer course at devCodeCamp. 
+         Students are taught how to think like software engineers, working on real-world projects in a collaborative environment.
+         Putting in over 480 + hours, working from project to project in varieties of languages and practices.
       </SectionText>
+      <Button onClick={() => window.location = 'https://devcodecamp.com/software-development-bootcamp/'}>Learn More</Button>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
         {TimeLineData.map((item, index) => (

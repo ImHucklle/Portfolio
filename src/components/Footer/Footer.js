@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          Slogan
+          The function of good software is to make the complex appear to be simple. - Grady Booch
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/ListerM6">
